@@ -1,0 +1,378 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.homepageimg{
+    height: 225px;
+    width: 225px;
+}
+.homeimg{
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content:flex-end;
+    padding: 20px 5%;
+    background-color:black;
+}
+
+nav .heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li:hover {
+    background-color:#3238f1;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+
+
+
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 5%;
+}
+.side1 {
+    font-size: 50px;
+    /* margin-bottom: 10px; */
+}
+.side2{
+    font-size: 50px;
+    /* margin-bottom:5px; */
+    color:#3238f1;
+}
+.yo{
+    color: aliceblue;
+}
+ .heading{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-family:'poppins';
+    margin-bottom:0px;
+ }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.secion {
+    background: var(--primary-color);
+    padding: 15px 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-bottom:150px;
+}
+.goals{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:50px;
+   
+}
+.goals1{
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom:500px;
+    margin-right:50px;
+}
+footer1 .footer1 span {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--white-color);
+}
+
+footer1 .footer1 span a {
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+footer1 .footer1 span a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1060px) {
+    .contactMenu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rightside1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .content1 {
+        width: 100%;
+        margin-top: 2px;
+        color: grey;
+    }
+
+    .side2 img {
+        width: 95%;
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .side2 img {
+        width: 100%;
+    }
+
+    section .topic a {
+        font-size: 20px;
+    }
+
+    section .topic p {
+        font-size: 5px;
+    }
+
+    .about .boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .boxes .box {
+        max-width: 70%;
+    }
+}
+
+
+.about-sec {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-img {
+    width: 700px; /* Adjust as needed */
+    height: 600px;
+    margin-right: 20px; /* Space between image and text */
+}
+
+.about-text {
+    max-width: 600px; /* Adjust as needed */
+    text-align: right; /* Ensure text is aligned to the left */
+    font-size: x-large;
+}
+
+.about-text h1 {
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.about-text p {
+    margin-bottom: 0;
+}
+
+.about-head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+}
+
+.about-head h1 {
+    margin-right: 10px; /* Space between heading and image */
+}
+
+.png {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+}
+
+.logo{
+    height: 500px;
+    width: 90vw;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logo-img{
+    height: 300px;
+    width: 500px;
+}
+
+
+footer {
+    background-color: #7c848d;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-logo-section {
+    flex: 1 1 200px;
+    text-align: left;
+}
+
+.footer-logo {
+    width:85px;
+    height: 85px;
+    margin-top: 10px;
+    margin-left:40px;
+    border-radius: 50%;
+}
+
+.footer-links-section {
+    flex: 2 1 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social-section {
+    flex: 1 1 200px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer-subscribe-section {
+    flex: 2 1 400px;
+    text-align: left;
+}
+
+.footer-subscribe-section form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer-subscribe-section input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-subscribe-section button {
+    padding: 10px 20px;
+    background-color: #005b4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-subscribe-section button:hover {
+    background-color: #007a6c;
+}
+
+.footer-bottom {
+    border-top: 1px solid #004238;
+    padding-top: 20px;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-bottom ul li {
+    margin: 0 10px;
+}
+
+.footer-bottom ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom ul li a:hover {
+    text-decoration: underline;
+}
+.terms-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+.terms-list li {
+    display: inline;
+}
+
+.terms-list a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 5px; /* Add some padding to create equal spacing */
+}
+
+.terms-list a:nth-child(even) {
+    pointer-events: none; /* Disable link functionality for the separators */
+}
